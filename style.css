@@ -28,14 +28,29 @@ header .logo{
     /* overflow: hidden; */
 }
 
+/* header .logo h2{
+    align-items: center;
+    position: absolute;
+    top: 10px;
+} */
+
 header menu a{
     text-decoration: none;
     float: left;
-    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 16px;
+    font-style: bold;
+   
+    /* gap: 30px; */
     /* background-color: ; */
 }
 
+header menu a:hover{
+     color: rgb(251, 89, 14);
+}
+
 header .search-bar{
+    align-items: center;
     position:absolute;
     right: 20px;
     /* float: right; */
@@ -62,7 +77,29 @@ header .search-bar{
     width: 100%;
 }
 
+header .search-bar button{
+    background-color: white;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    border-color: none;
+    border-style: hidden;
+}
+header .search-bar button:hover{
+    background-color:rgb(255, 129, 71);
+    color: white;
+    /* font-size: medium; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
 
+header .search-bar input{
+    /* padding: 1px 2px; */
+    border-radius: 2px;
+   /* border-style:ridge; */
+   /* border-color: orangered; */
+}
 
 
 
