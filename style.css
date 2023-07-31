@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+background-color: rgb(253, 253, 253);
+height: 50px;
+width: 100%;
+}
+
+
+header .logo img{
+    height: 50px;
+    width: 50px;
+}
+
+
+header .logo{
+    display: flex;
+    align-items: center;
+    position:absolute;
+    right: 600px;
+    /* text-align: justify; */
+    /* overflow: hidden; */
+}
+
+header menu a{
+    text-decoration: none;
+    float: left;
+    gap: 30px;
+    /* background-color: ; */
+}
+
+header .search-bar{
+    position:absolute;
+    right: 20px;
+    /* float: right; */
+}
+
+.slides .text{
+   
+    color: white;
+    position: absolute;
+    /* top: 80px; */
+    right: 80px;
+    bottom: 30px;
+    text-align:justify;
+}
+.slides .text h1{
+    font-size: 80px;
+}
+.slides .text h4{
+    font-size: 30px;
+}
+
+.slides{
+    height:15px;
+    width: 100%;
+}
+
+
+
+
+
