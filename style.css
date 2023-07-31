@@ -24,8 +24,19 @@ header .logo{
     align-items: center;
     position:absolute;
     right: 600px;
+    
     /* text-align: justify; */
     /* overflow: hidden; */
+}
+
+header .logo .logo-txt{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    text-align: justify;
+    /* position:absolute;
+    right: 100px; */
+    
 }
 
 /* header .logo h2{
